@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import Head from "next/head";
 
 import "../styles/main.css";
@@ -15,37 +14,37 @@ const logo = `
 `;
 
 const Home = () => (
-  <div>
+  <div className="antialiased min-h-screen flex items-center justify-center">
     <Head>
-      <title>Level Technologies</title>
+      <title>Unstack, LLC</title>
     </Head>
 
-    <div className="p-8 max-w-xl mx-auto text-2xl text-gray-700 antialiased">
+    <div className="pt-8 px-8 pb-32 max-w-xl mx-auto text-2xl text-gray-700 antialiased">
       <div className="pb-16">
         <div dangerouslySetInnerHTML={{ __html: logo }} />
       </div>
 
       <p className="pb-8">
-        Level Technologies is a small software company creating tools for the
-        web. Level was founded by{" "}
+        <strong className="font-bold text-gray-900">Unstack, LLC</strong> is a
+        small software shop owned and operated by{" "}
         <a
           href="https://www.derrickreimer.com"
           className="border-b-4 border-gray-300 font-bold text-gray-900"
         >
           Derrick Reimer
-        </a>{" "}
-        in 2018.
+        </a>
+        .
       </p>
 
       <p className="pb-8">
-        We are currently building{" "}
+        We are currently focusing on{" "}
         <a
           href="https://statickit.com"
           className="border-b-4 border-gray-300 font-bold text-gray-900"
         >
           StaticKit
         </a>
-        , a collection of dynamic components for static sites.
+        .
       </p>
     </div>
   </div>
