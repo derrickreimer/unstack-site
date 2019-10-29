@@ -1,8 +1,6 @@
 import React from "react";
 import Head from "next/head";
 
-import "../styles/main.css";
-
 const logo = `
 <svg width="30px" height="18px" viewBox="0 0 30 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -14,7 +12,7 @@ const logo = `
 `;
 
 const Home = () => (
-  <div className="antialiased min-h-screen flex items-center justify-center">
+  <div className="min-h-screen flex items-center justify-center">
     <Head>
       <title>Unstack, LLC</title>
     </Head>

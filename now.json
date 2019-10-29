@@ -1,4 +1,9 @@
 {
   "version": 2,
-  "scope": "unstacked"
+  "scope": "unstacked",
+  "build": {
+    "env": {
+      "ENABLE_ANALYTICS": "1"
+    }
+  }
 }
