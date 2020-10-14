@@ -35,12 +35,12 @@ const Home = () => (
       </p>
 
       <p className="pb-8">
-        We are currently focusing on{" "}
+        We are building{" "}
         <a
-          href="https://statickit.com"
+          href="https://savvycal.com"
           className="border-b-4 border-gray-300 font-bold text-gray-900"
         >
-          StaticKit
+          SavvyCal
         </a>
         .
       </p>
